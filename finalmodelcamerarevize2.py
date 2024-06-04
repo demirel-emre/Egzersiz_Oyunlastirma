@@ -76,8 +76,7 @@ class PredictionPage(Frame):
                 landmarks = results.pose_landmarks.landmark
                 landmark_array = np.array([[landmark.x, landmark.y, landmark.z] for landmark in landmarks]).flatten()
 
-                # Modeliniz için gerekli olan ön işlemleri yapabilirsiniz
-                # Örneğin, landmark_array'ı modelinize uygun hale getirebilirsiniz
+               
 
                 resized_frame = cv2.resize(frame, (150, 150))
                 normalized_frame = resized_frame / 255.0
