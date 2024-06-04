@@ -4,6 +4,9 @@ Egzersiz Oyunlaştırma Uygulaması | Emre DEMİREL
 Bu uygulama, fitness egzersizlerini gerçek zamanlı olarak tanıyan ve kullanıcılara geribildirim olarak doğruluk oranı ve skor sağlayan bir sistemdir.
 Bu README dosyası, projenin nasıl kullanılacağına ve yapılandırılacağına dair detaylı bilgiler içerir.
 
+- Dataset ve model.h5 dosyası boyuttan dolayı drive linkindedir. Lütfen indirdikten sonra zipten çıkararak dosyaları klasöre dahil ediniz.
+- Link: https://drive.google.com/drive/folders/1TXLw1FUaIFN7PUQSq1_9PB8UtMui5IOf?usp=sharing
+
 
 Dosyalar ve Klasörler:
 - frameayirma.py: Egzersiz videolarından kareler çıkartarak eğitim için veri setini hazırlayan Python betiği.
